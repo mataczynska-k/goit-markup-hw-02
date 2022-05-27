@@ -1,0 +1,66 @@
+
+body {font-family: "Roboto", "Raleway", sans-serif;
+color: #212121;
+font-weight: 400;
+font-style: normal;}
+
+ul {list-style-type: none;}
+
+:root{
+    --brand-color: #2196F3;
+    --
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  weight: 700px;
+  size: 26px;
+  Line-height: 30.52px;
+  
+}
+
+.dimensions-img-portfolio {
+    Width: 370px;
+    Height: 294px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link { color: rgb(3, 3, 3);}
+
+.social-links .link:hover,
+.social-links .link:focus {
+  color: #2196F3;
+}
+
+.social-links .link:active {
+    color: red;
+  }
+
+
+.title {
+    text-align: center;
+    font-size: 44px;
+    line-height: 116%;
+    color: white;
+    font-weight: 900;
+  }
+.heading {
+    background-color: #2F303A;
+    width: 1600px;
+    height: 600px;
+}
+
+button:hover, button:focus {
+    color: white;
+    background-color: #2196F3;
+    border: none;
+    cursor: pointer
+}
+
+
+
+
+
