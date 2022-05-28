@@ -1,6 +1,6 @@
 
 body {font-family: "Roboto", "Raleway", sans-serif;
-color: #212121;
+color: var(--general-color-text);
 font-weight: 400;
 font-style: normal;}
 
@@ -8,7 +8,11 @@ ul {list-style-type: none;}
 
 :root{
     --brand-color: #2196F3;
-    --
+    --general-color-text: #212121;
+    --black: black;
+    --white: #FFFFFF;
+    --heading-background: #2F303A;
+    --text-lorem: #757575;
 }
 
 .logo {
@@ -16,51 +20,104 @@ ul {list-style-type: none;}
   weight: 700px;
   size: 26px;
   Line-height: 30.52px;
-  
 }
 
-.dimensions-img-portfolio {
-    Width: 370px;
-    Height: 294px;
+.logo-web {
+  color: var(--brand-color);
+}
+
+.menu-button {
+  font-size: 16px;
+  font-style: medium;
+  font-weight: 500;
+  background-color: #F5F4FA;
+  border: none;
+}
+.link { color: var(--black);
+  text-decoration: none;
+}
+.social-links .link:hover,
+.social-links .link:focus {
+color: var(--brand-color);
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
+  color: var(--black);
 }
 
-.link { color: rgb(3, 3, 3);}
-
-.social-links .link:hover,
-.social-links .link:focus {
-  color: #2196F3;
+.lorem-title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
 }
 
-.social-links .link:active {
-    color: red;
-  }
+.lorem-text {
+  font-style: regular;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--text-lorem);
+}
 
-
+.john-doe {
+font-size: 16px;
+line-height: 19px;
+font-style: medium;
+color: var(--general-color-text)
+}
+.john-doe-function {
+  font-size: 16px;
+  font-style: regular;
+  line-height: 19px;
+  color: var(--text-lorem);
+}
+.h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  text-align: center;
+  color: var(--general-color-text)
+}
 .title {
     text-align: center;
     font-size: 44px;
     line-height: 116%;
-    color: white;
+    color: var(--white);
     font-weight: 900;
   }
 .heading {
-    background-color: #2F303A;
+    background-color: var(--heading-background);
     width: 1600px;
     height: 600px;
 }
 
 button:hover, button:focus {
-    color: white;
-    background-color: #2196F3;
+    color: var(--white);
+    background-color: var(--brand-color);
     border: none;
     cursor: pointer
 }
 
+.footer {
+  background-color: var(--heading-background);
+  height: 252px;
+  width: 1600px;
 
+}
+.footer-text {
+  font-size: 14px;
+  line-height: 24px;
+  font-style: regular;
+  color: var(--white);
+  text-decoration: none;
+}
 
+.footer-link { color: var(--white);
+  text-decoration: none;
+}
+.footer-links .link:hover,
+.footer-links .link:focus {
+color: var(--brand-color);
+}
 
 
