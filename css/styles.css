@@ -17,8 +17,8 @@ ul {list-style-type: none;}
 
 .logo {
   font-family: "Raleway", sans-serif;
-  weight: 700px;
-  size: 26px;
+  font-weight: 700px;
+  font-size: 26px;
   Line-height: 30.52px;
 }
 
@@ -81,7 +81,7 @@ color: var(--general-color-text)
 .title {
     text-align: center;
     font-size: 44px;
-    line-height: 116%;
+    line-height: 60px;
     color: var(--white);
     font-weight: 900;
   }
@@ -89,19 +89,22 @@ color: var(--general-color-text)
     background-color: var(--heading-background);
     width: 1600px;
     height: 600px;
+    flex: auto;
 }
 
 button:hover, button:focus {
     color: var(--white);
     background-color: var(--brand-color);
     border: none;
-    cursor: pointer
+    cursor: pointer;
+   
 }
 
 .footer {
   background-color: var(--heading-background);
   height: 252px;
   width: 1600px;
+  flex: auto;
 
 }
 .footer-text {
@@ -118,6 +121,20 @@ button:hover, button:focus {
 .footer-links .link:hover,
 .footer-links .link:focus {
 color: var(--brand-color);
+}
+
+.img-portfolio-title {
+  font-size: 18px;
+  line-height: 36px;
+  font-style: bold;
+  font-weight: 700;
+}
+
+.img-portfolio-text {
+  font-size: 16px;
+  line-height: 30px;
+  font-style: regular;
+  color: var(--text-lorem)
 }
 
 
