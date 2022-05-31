@@ -20,6 +20,7 @@ ul {list-style-type: none;}
   weight: 700px;
   size: 26px;
   Line-height: 30.52px;
+  color: var(--black)
 }
 
 .logo-web {
@@ -43,7 +44,7 @@ color: var(--brand-color);
 
 a {
   text-decoration: none;
-  color: var(--black);
+  color: var(--text-lorem);
 }
 
 .lorem-title {
@@ -91,8 +92,7 @@ color: var(--general-color-text)
     height: 600px;
 }
 
-button:hover, button:focus {
-    color: var(--white);
+button {
     background-color: var(--brand-color);
     border: none;
     cursor: pointer
