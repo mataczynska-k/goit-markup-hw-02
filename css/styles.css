@@ -13,7 +13,15 @@ ul {list-style-type: none;}
     --white: #FFFFFF;
     --heading-background: #2F303A;
     --text-lorem: #757575;
+    --person: #F5F4FA;
+    --portfolio-img-background: #EEEEEE;
+    --fotter-link-color: rgba(255, 255, 255, 0.6);
 }
+/*.header-appearance {
+  width 1600px;
+  height: 80px;
+  background-color:var (--white) ;
+}*/
 
 .logo {
   font-family: "Raleway", sans-serif;
@@ -28,13 +36,17 @@ ul {list-style-type: none;}
 }
 
 .menu-button {
-  font-size: 16px;
   font-style: medium;
   font-weight: 500;
   background-color: #F5F4FA;
   border: none;
 }
-.link { color: var(--black);
+.menu-button:hover {
+  background-color: var(--brand-color);
+  color: var(--white);
+}
+
+.link { color: var(--general-color-text);
   text-decoration: none;
 }
 .social-links .link:hover,
@@ -66,12 +78,14 @@ line-height: 19px;
 font-style: medium;
 color: var(--general-color-text)
 }
+
 .john-doe-function {
   font-size: 16px;
   font-style: regular;
   line-height: 19px;
   color: var(--text-lorem);
 }
+
 .h2 {
   font-size: 36px;
   font-weight: 700;
@@ -79,6 +93,7 @@ color: var(--general-color-text)
   text-align: center;
   color: var(--general-color-text)
 }
+
 .title {
     text-align: center;
     font-size: 44px;
@@ -86,24 +101,42 @@ color: var(--general-color-text)
     color: var(--white);
     font-weight: 900;
   }
+
 .heading {
     background-color: var(--heading-background);
     width: 1600px;
     height: 600px;
 }
+.person {
+  /*width: 1600px;
+  height: 648px;*/
+  background-color: var(--person) ;
+}
 
-button {
+.img-portfolio {
+  width: 370px;
+  height: 294px;
+  background-color: var(--portfolio-img-background);
+
+}
+.button {
     background-color: var(--brand-color);
     border: none;
     cursor: pointer
 }
-
+.button-text {
+  color: var(--white);
+}
 .footer {
   background-color: var(--heading-background);
   height: 252px;
   width: 1600px;
-
 }
+
+.footer-logo {
+  color: var(--white)
+}
+
 .footer-text {
   font-size: 14px;
   line-height: 24px;
@@ -112,7 +145,7 @@ button {
   text-decoration: none;
 }
 
-.footer-link { color: var(--white);
+.footer-link { color: var(--fotter-link-color);
   text-decoration: none;
 }
 .footer-links .link:hover,
