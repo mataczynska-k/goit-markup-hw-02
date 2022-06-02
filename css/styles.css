@@ -17,11 +17,7 @@ ul {list-style-type: none;}
     --portfolio-img-background: #EEEEEE;
     --fotter-link-color: rgba(255, 255, 255, 0.6);
 }
-/*.header-appearance {
-  width 1600px;
-  height: 80px;
-  background-color:var (--white) ;
-}*/
+
 
 .logo {
   font-family: "Raleway", sans-serif;
@@ -51,6 +47,14 @@ ul {list-style-type: none;}
 }
 .social-links .link:hover,
 .social-links .link:focus {
+color: var(--brand-color);
+}
+
+.link-contact { color: var(--text-lorem);
+  text-decoration: none;
+}
+.social-links-contact .link-contact:hover,
+.social-links-contact .link-contact:focus {
 color: var(--brand-color);
 }
 
